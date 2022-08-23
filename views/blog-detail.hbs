@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>Blog Detail</title>
+        <link rel="icon" type="image/x-icon" href="/assets/images/Logo.png">
+        <link rel="stylesheet" href="/assets/styling/blog.css">
+    </head>
+    <body>
+        <nav>
+            <div class="nav-left">
+                <img src="/assets/images/Logo.png" alt="logo">
+                <ul>
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/add-project">Add Project</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="nav-right">
+                <a href="/contact">Contact Me</a>
+            </div>
+        </nav>
+
+        <div class="blog-detail">
+            <div class="blog-detail-container">
+                <h1>{{data.title}}</h1>
+                <div class="author">
+                    <p>written by {{data.author}}</p>
+                </div>
+
+                <div class="blog-detail-dua">
+                    <div class="blog-detail-left">
+                        <img src="https://psti.unisayogya.ac.id/wp-content/uploads/2020/09/untitlsssssed.png" alt="detail" />
+                    </div>
+                    
+                    <div class="blog-detail-right">
+                        <div class="blog-detail-right-a">
+                            <label>Duration</label>
+                            <div>
+                                <img src="/assets/images/calendar.png" alt="calender"/>
+                                <p class="duration-project">{{data.startDate}} - {{data.endDate}}</p>
+                            </div>
+                            
+                            <div>
+                                <img src="/assets/images/clock.png" alt="clock"/>
+                                <p class="duration-project">{{data.duration}} month</p>
+                            </div>
+                        </div>
+
+                        <label>Technologies</label>
+                        
+                        <div class="blog-detail-right-b">
+                            <div class="tech-left">
+                                <div>
+                                    <img src="/assets/images/html.png" alt="html"/>
+                                    <p>HTML</p>
+                                </div>
+                                <div>
+                                    <img src="/assets/images/css.png" alt="css"/>
+                                    <p>CSS</p>
+                                </div>
+                            </div>
+
+                            <div class="tech-right">
+                                <div>
+                                    <img src="/assets/images/javascript.png" alt="javascript"/>
+                                    <p>Javascript</p>
+                                </div>
+                                <div>
+                                    <img src="/assets/images/sql.png" alt="sql"/>
+                                    <p>SQL</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-p">
+                    <p>
+                        {{data.content}}
+                    </p>
+                </div>
+            </div>
+          </div>
+    </body>
+</html>

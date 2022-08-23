@@ -1,0 +1,135 @@
+body {
+    margin: 0px;
+}
+
+nav {
+    background-color:rgb(206, 206, 149);
+    display: flex;
+    height: 10vh;
+}
+
+.nav-left {
+    display: flex;
+    padding-left: 50px;
+    align-items: center;
+    flex: 50%;
+}
+
+.nav-left li {
+    display: inline;
+}
+
+.nav-left ul {
+    display: flex;
+}
+
+.nav-left ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.nav-left img {
+    width: 60px;
+    padding-left: 50px;
+}
+
+.nav-right {
+    display: flex;
+    flex: 50%;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
+.nav-right a {
+    background-color: rgb(122, 122, 26);
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.blog-form {
+    background-color: gainsboro;
+}
+
+.blog-detail {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(180, 177, 177);
+}
+  
+.blog-detail-container {
+    width: 80%;
+    margin: 40px 0;
+}
+  
+.blog-detail-container img {
+    width: 100%;
+}
+  
+.blog-detail-container h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 120%;
+    margin-bottom: 15px;
+}
+  
+.blog-detail-container .author {
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 120%;
+    margin-bottom: 20px;
+}
+
+.blog-detail-container .blog-detail-dua {
+    display: flex;
+}
+
+.blog-detail-container .blog-detail-left {
+    width: 70%;
+}
+
+.blog-detail-container .blog-detail-right {
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+.blog-detail-container .blog-detail-right img {
+    margin-top: 10px;
+    width: 20px;
+}
+
+.blog-detail-container .blog-detail-right label {
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.blog-detail-container .blog-detail-right p {
+    margin-left: 10px;
+    display: inline;
+}
+
+.blog-detail-container .blog-detail-right-a {
+    margin-bottom: 50px;
+}
+
+.blog-detail-container .blog-detail-right-b {
+    display: flex;
+}
+
+.blog-detail-container .blog-detail-right-b .tech-left p {
+    margin-right: 50px;
+}
+
+.blog-detail-container .item-p {
+    margin-top: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 140%;
+    text-align: justify;
+}
